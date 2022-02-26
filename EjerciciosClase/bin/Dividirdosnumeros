@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+
+public class Dividirdosnumeros {
+    
+    public static void name (String [] args) {
+
+        // DIVISION DE DOS NUMEROS//
+        // VARIABLES num1, num,2, cuociente, residuo//
+
+    // PROCESO DE ENTRADA//
+
+    int num1,num2,cuociente,residuo;
+
+    try (Scanner teclado = new Scanner (System.in)) {
+        System.out.print ("INGRESE EL PRIMER NUMERO");
+        num1 = teclado.nextInt();
+
+        System.out.print ("INGRESE EL SEGUNDO NUMERO");
+        num2 = teclado.nextInt();
+
+
+    }
+    
+        
+    // PROCESO //
+
+    cuociente = num1/num2;
+    residuo = num1-(cuociente*num2)
+
+    // SALIDA //
+
+    System.out.print ("EL CUOCIENTE DE LA DIVISION ES"+ cuociente);
+    System.out.print ("EL RESIDUO DE LA DIVISION ES"+ residuo);
+
+    }
+
+}
